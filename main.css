@@ -1,3 +1,58 @@
 body {
   background-color:pink;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  height: 60px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+background-color: indigo;
+color: black;
+}
+
+section {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article {
+  display: flex;
+}
+
+.card-container {
+  display:flex;
+  flex-flow: row wrap;
+  padding: 30px;
+}
+
+.card {
+  margin: 10px;
+  border: 3px solid blue;
+  padding: 10px;
+}
+
+.card img {
+  height: 400px;
+}
+
+.card h2 {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
