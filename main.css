@@ -29,6 +29,7 @@ color: black;
 
 section {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+flex-flow: row wrap;
 }
 
 article {
@@ -37,8 +38,6 @@ article {
 
 .card-container {
   display:flex;
-  flex-flow: row wrap;
-  padding: 30px;
 }
 
 .card {
@@ -52,6 +51,26 @@ article {
 }
 
 .card h2 {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.people-container {
+  display: flex;
+}
+
+.people {
+  margin: 10px;
+  border: 3px solid blue;
+  padding: 10px;
+}
+
+.people img {
+  height: 400px;
+}
+
+.people h2 {
   text-align: center;
   color: white;
   background-color: black;
